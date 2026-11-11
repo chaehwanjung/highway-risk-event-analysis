@@ -1,0 +1,2 @@
+"model","num_leaves","max_depth","learning_rate","feature_fraction","bagging_fraction","Accuracy","Precision","Recall","F1","AUC"
+"LGBM_leaves63_depth7_lr0.05",63,7,0.05,0.8,0.8,0.932398468370738,0.784559066330246,0.909226235718942,0.84230276645813,0.976249662735552
