@@ -1,0 +1,47 @@
+{
+  "period": "2022-01-01 to 2022-04-30",
+  "analysis_rows_from_saved_aggregate": 11704666,
+  "event_rows_from_saved_aggregate": 86354,
+  "inputs": [
+    {
+      "file": "(2025-1)PBL최종데이터_경부선S방향.csv",
+      "purpose": "VDS 5분 교통류·사고·급감속 집계"
+    },
+    {
+      "file": "ASOS_DATASET.csv",
+      "purpose": "시간 단위 기상"
+    },
+    {
+      "file": "geometry/",
+      "purpose": "경부선 도로 중심선 SHP 및 관련 파일; 제공 폴더에서 확인되지 않음"
+    },
+    {
+      "file": "고속도로IC 위치정보.csv",
+      "purpose": "IC 위치와 이정 매핑"
+    },
+    {
+      "file": "경부선 상행 교량 및 터널(최종).xlsx",
+      "purpose": "구조물 속성"
+    },
+    {
+      "file": "curvature_by_km.csv",
+      "purpose": "0.5km 단위 굴곡도"
+    },
+    {
+      "file": "TalkFile_사고데이터 (crashcount 1-2) 최종.xlsx.xlsx",
+      "purpose": "차종별 보조 EDA"
+    },
+    {
+      "file": "data_mart.csv",
+      "purpose": "1차 통합 데이터마트"
+    },
+    {
+      "file": "data_mart_final_features_v2.csv",
+      "purpose": "최종 파생변수 데이터마트"
+    },
+    {
+      "file": "model_outputs/model_sample_data.csv",
+      "purpose": "양성 전체·음성 3% 추출한 모델링 표본"
+    }
+  ]
+}
