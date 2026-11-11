@@ -1,0 +1,18 @@
+# Local data and session files
+.RData
+.Rhistory
+.Rproj.user/
+.env
+.env.*
+!.env.example
+data/*
+!data/README.md
+!data/input_manifest.json
+*.hyper
+*.twbx
+*.twbr
+*.rds
+*.RDS
+.Renviron
+.DS_Store
+Thumbs.db
